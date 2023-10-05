@@ -28,3 +28,11 @@ double gradient_sigmoid(double sigma) //gradient_sigmoid function
 	return sigmaprime; //return value calculated for sigmaprime
 }
 
+int main()
+{
+	sigma = sigmoid(z); //call functions and pass in necessary variable
+	sigmaprime = gradient_sigmoid(sigma);
+
+	cout << "Sigma is equal to " << sigma << endl; //print results
+	cout << "Sigma prime is equal to " << sigmaprime << endl;
+}
